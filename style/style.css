@@ -1,0 +1,415 @@
+@import "fonts.css";
+
+/* 
+font-family: "OpenSans-Regular";
+font-family: "OpenSans-Bold";
+font-family: "OpenSans-Light";
+
+font-family: "Blessed-Day";
+*/
+
+.conteiner {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  align-self: center;
+}
+
+li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ==================== header ===================== */
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 70px 0;
+
+}
+
+.head__logo {
+  line-height: 55px;
+  font-size: 72px;
+  color: #fff;
+  font-family: "Blessed-Day";
+  display: inline-block;
+
+}
+
+.header {
+  background: url(../images/header.png) no-repeat center 100% /cover;
+  margin-bottom: 130px;
+}
+
+.nav__content {
+  display: block;
+  color: #fff;
+  margin-right: 16px;
+  padding: 0 5px;
+  line-height: 50px;
+  border-bottom: 3px solid transparent;
+  transition: border 0.3s;
+}
+
+.nav__content:hover {
+  border-bottom: 3px solid #1abc9c;
+}
+
+.header__span {
+  font-weight: 900;
+}
+
+.header__center {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.header__center_right_title {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "OpenSans-Regular";
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.header__center_right_text {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "OpenSans-Light";
+  width: 477px;
+  margin-bottom: 62px;
+}
+
+.header__buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.header__button {
+  padding: 15px 25px;
+  background-color: #1abc9c;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.header__button2 {
+  padding: 15px 25px;
+  background-color: #3498db;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* ==================== header ===================== */
+/* ==================== main ===================== */
+.block1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 205px;
+}
+
+.block1__letf {
+  width: 600px;
+}
+
+.block1__title {
+  font-size: 24px;
+  color: #34495e;
+  font-family: "OpenSans-Regular";
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.block1__text {
+  color: #34495e;
+  font-size: 18px;
+  font-family: "OpenSans-Regular";
+  line-height: 2;
+}
+
+.block1__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 240px;
+}
+
+
+
+
+.block2__box_title {
+  font-size: 20px;
+  color: #2c3e50;
+  font-family: "OpenSans-Bold";
+  margin-bottom: 23px;
+}
+
+.block2__box_text {
+  font-size: 14px;
+  color: #2c3e50;
+  font-family: "OpenSans-Light";
+  line-height: 20px;
+}
+
+.block2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.block2__box {
+  width: 300px;
+  text-align: center;
+}
+
+.block2__box img {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+.block3 {
+  background: url(../images/main__bg.png) no-repeat center 100% /cover;
+  height: 515px;
+  margin-bottom: 200px;
+}
+
+.block3__content {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.block3__content_title {
+  font-family: "OpenSans-Regular";
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  padding-top: 63px;
+  padding-bottom: 10px;
+}
+
+.block3__content_text {
+  color: #fff;
+  font-size: 18px;
+  font-family: "OpenSans-Light";
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.block3__content {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.conteiner {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.block4__top_title {
+  text-align: center;
+  font-size: 48px;
+  color: #34495e;
+  font-family: "OpenSans-Light";
+  margin-bottom: 80px;
+}
+
+.block4__bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.block4__box {
+  width: 450px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.block4__box_content_title {
+  font-size: 24px;
+  color: #34495e;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  font-family: "OpenSans-Regular";
+}
+
+.block4__box_content {
+  height: 80px;
+}
+
+.block4__box_content_text {
+  font-size: 14px;
+  color: #34495e;
+  font-family: "OpenSans-Light";
+  width: 285px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteiner {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.block5 {
+  background-color: #34495e;
+  padding-top: 110px;
+  padding-bottom: 117px;
+}
+
+.block5__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block5__left {
+  width: 450px;
+}
+
+.blck5__left_title {
+  font-size: 24px;
+  color: #fff;
+  font-family: "OpenSans-Regular";
+  margin-bottom: 30px;
+}
+
+.block5__left_text {
+  color: #fff;
+  font-size: 14px;
+  font-family: "OpenSans-Light";
+  margin-bottom: 42px;
+}
+
+.link {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.link1__text {
+  font-size: 14px;
+  font-family: "OpenSans-Regular";
+  color: #fff;
+  margin-left: 10px;
+}
+
+.link2__link {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.link2__slesh {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.link3__link {
+  color: #fff;
+  margin-left: 10px;
+}
+.block5__right{
+  display: flex;
+  width: 460px;
+}
+#input__left{
+  margin-right: 32px;
+  margin-bottom: 15px;
+}
+.input {
+  display: inline-block;
+  width: 200px;
+  padding: 12px;
+  background: #5d6d7e;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 15px;
+}
+.text__area{
+  display: inline-block;
+  width: 458px;
+  height: 150px;
+  resize: none;
+  outline: none;
+  background: #5d6d7e;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 13px;
+  color: #fff;
+}
+.input2{
+  display: inline-block;
+  width: 484px;
+  height: 12px;
+  resize: none;
+  outline: none;
+  background: #5d6d7e;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 13px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+input::placeholder{color: #fff;}
+textarea::placeholder{color: #fff;}
+
+/* ==================== main ===================== */
+/* =============== footer =================== */
+footer {
+  background-color: #2c3e50;
+  padding: 70px 0;
+}
+
+.footer__text{
+  color: #fff;
+  text-align: center;
+}
+.option{
+    width: 484px;
+    height: 42px;
+    resize: none;
+    outline: none;
+    background: #5d6d7e;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+/* =============== footer =================== */
